@@ -25,8 +25,8 @@ import (
 	"regexp"
 	"strings"
 
-	beeLogger "bee2/logger"
-	"bee2/utils"
+	beeLogger "bee/logger"
+	"bee/utils"
 
 	_ "github.com/go-sql-driver/mysql"
 	_ "github.com/lib/pq"
@@ -2411,7 +2411,7 @@ func init() {
 		return str
 	}
 	
-	// 由于使用bee2生成，简单加密避免引入过多包，直接在这定义
+	// 由于使用bee生成，简单加密避免引入过多包，直接在这定义
 	// Encode string to md5 hex value
 	func EncodeStrMd5(str string) string {
 		m := md5.New()

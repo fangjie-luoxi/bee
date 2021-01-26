@@ -22,10 +22,10 @@ import (
 	path "path/filepath"
 	"strings"
 
-	"bee2/cmd/commands"
-	"bee2/cmd/commands/version"
-	beeLogger "bee2/logger"
-	"bee2/utils"
+	"bee/cmd/commands"
+	"bee/cmd/commands/version"
+	beeLogger "bee/logger"
+	"bee/utils"
 )
 
 var CmdApiApp = &commands.Command{
@@ -114,7 +114,7 @@ controller:
   #     imports: xx_api/rules
 `
 var apiUseOrmMD = `代码生成：
-bee2 generate appcode -driver=mysql -conn="root:root@tcp(localhost:3306)/xxx" -level=1
+bee generate appcode -driver=mysql -conn="root:root@tcp(localhost:3306)/xxx" -level=1
 
 数据库设计：
 假设当前表名为A
@@ -135,13 +135,13 @@ var apiMD = `
 
 ## 代码生成
 // 全部生成
-bee2 g -c="root:root@tcp(localhost:3306)/xxx"
+bee g -c="root:root@tcp(localhost:3306)/xxx"
 
 // models、controllers、routers生成
-bee2 g code -c="root:root@tcp(localhost:3306)/xxx"
+bee g code -c="root:root@tcp(localhost:3306)/xxx"
 
 // 由rules.yml生成代码
-bee2 g rule
+bee g rule
 `
 
 func init() {

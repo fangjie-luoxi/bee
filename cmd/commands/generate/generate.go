@@ -17,12 +17,12 @@
 package generate
 
 import (
-	"bee2/cmd/commands"
-	"bee2/cmd/commands/version"
-	"bee2/config"
-	"bee2/generate"
-	beeLogger "bee2/logger"
-	"bee2/utils"
+	"bee/cmd/commands"
+	"bee/cmd/commands/version"
+	"bee/config"
+	"bee/generate"
+	beeLogger "bee/logger"
+	"bee/utils"
 	"os"
 )
 

@@ -18,10 +18,10 @@ import (
 	"log"
 	"os"
 
-	"bee2/cmd"
-	"bee2/cmd/commands"
-	"bee2/config"
-	"bee2/utils"
+	"bee/cmd"
+	"bee/cmd/commands"
+	"bee/config"
+	"bee/utils"
 )
 
 func main() {

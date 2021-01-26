@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"bee2/logger/colors"
-	"bee2/utils"
+	"bee/logger/colors"
+	"bee/utils"
 )
 
 // Command is the unit of execution

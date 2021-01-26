@@ -16,12 +16,12 @@
 package cmd
 
 import (
-	"bee2/cmd/commands"
-	_ "bee2/cmd/commands/api"
-	_ "bee2/cmd/commands/generate"
-	_ "bee2/cmd/commands/run"
-	_ "bee2/cmd/commands/version"
-	"bee2/utils"
+	"bee/cmd/commands"
+	_ "bee/cmd/commands/api"
+	_ "bee/cmd/commands/generate"
+	_ "bee/cmd/commands/run"
+	_ "bee/cmd/commands/version"
+	"bee/utils"
 )
 
 var usageTemplate = `Bee is a Fast and Flexible tool for managing your Beego Web Application.

@@ -15,8 +15,8 @@
 package utils
 
 import (
-	beeLogger "bee2/logger"
-	"bee2/logger/colors"
+	beeLogger "bee/logger"
+	"bee/logger/colors"
 	"bytes"
 	"fmt"
 	"os"

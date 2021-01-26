@@ -1,7 +1,7 @@
 package generate
 
 import (
-	"bee2/utils"
+	"bee/utils"
 	"encoding/json"
 	"fmt"
 	"io/ioutil"

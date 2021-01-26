@@ -20,11 +20,11 @@ import (
 	"runtime"
 	"strings"
 
-	"bee2/cmd/commands"
-	"bee2/cmd/commands/version"
-	"bee2/config"
-	beeLogger "bee2/logger"
-	"bee2/utils"
+	"bee/cmd/commands"
+	"bee/cmd/commands/version"
+	"bee/config"
+	beeLogger "bee/logger"
+	"bee/utils"
 )
 
 var CmdRun = &commands.Command{
